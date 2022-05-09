@@ -1,0 +1,43 @@
+{%- macro infobox(Company_Tel,REGISTERED_STATE_Tel,COMPANY_CLASS_Tel,Industry_Tel,BSE_code,NSE_code,ISIN,CIN,date_of_incorp,REGISTRAR_OF_COMPANIES_Tel,Description_3,Head_Quarter_,website,image) -%}
+{%- if website == 'NaN' -%}
+    {%- set website = '' -%}
+{%- endif -%}
+{%- if ISIN == 'NaN' -%}
+    {%- set ISIN = ''-%}
+{%- endif -%}
+
+{{'{{Infobox '}}
+| label0 = లోగో
+| data0 = {{image}}
+| label1 = సంస్థ పేరు 
+| data1 = {{Company_Tel}}
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = {{REGISTERED_STATE_Tel}}
+| label4 = రకం
+| data4 = {{COMPANY_CLASS_Tel}}
+| label5 = పరిశ్రమ
+| data5 = {{Industry_Tel}}
+| label6 = వర్తకం
+| data6	= {{BSE_code,NSE_code}}
+| label7 = ఐ.ఎస్.ఐ.ఎన్   
+| data7	= {{ISIN}}
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= {{CIN}}
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = {{date_of_incorp}} 
+| label11 = ప్రధాన కార్యాలయం
+| data11 = {{Head_Quarter_}}
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = {{Description_3.split("డైరెక్టర్లు ")[1]}}
+| label13 = ఆదాయం 
+| label15 = జాలస్థలి
+| data15 = {{website}}
+{{'}}\n'}}
+{%- endmacro -%}
+
+
+{{- infobox(Company_Tel,REGISTERED_STATE_Tel,COMPANY_CLASS_Tel,Industry_Tel,BSE_code,NSE_code,ISIN,CIN,date_of_incorp,REGISTRAR_OF_COMPANIES_Tel,Description_3,Head_Quarter_,website,image) }}

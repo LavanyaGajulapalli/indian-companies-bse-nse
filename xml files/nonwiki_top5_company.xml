@@ -1,0 +1,465 @@
+-<mediawiki xml:lang="te" version="0.10" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.10/">
+
+
+-<siteinfo>
+
+<sitename>tewiki</sitename>
+
+<dbname>indicwiki</dbname>
+
+<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+
+<generator>MediaWiki 1.34.0</generator>
+
+<case>first-letter</case>
+
+
+-<namespaces>
+
+<namespace case="first-letter" key="-2">మీడియా</namespace>
+
+<namespace case="first-letter" key="-1">ప్రత్యేక</namespace>
+
+<namespace case="first-letter" key="0"/>
+
+<namespace case="first-letter" key="1">చర్చ</namespace>
+
+<namespace case="first-letter" key="2">వాడుకరి</namespace>
+
+<namespace case="first-letter" key="3">వాడుకరి చర్చ</namespace>
+
+<namespace case="first-letter" key="4">Project</namespace>
+
+<namespace case="first-letter" key="5">Project చర్చ</namespace>
+
+<namespace case="first-letter" key="6">దస్త్రం</namespace>
+
+<namespace case="first-letter" key="7">దస్త్రంపై చర్చ</namespace>
+
+<namespace case="first-letter" key="8">మీడియావికీ</namespace>
+
+<namespace case="first-letter" key="9">మీడియావికీ చర్చ</namespace>
+
+<namespace case="first-letter" key="10">మూస</namespace>
+
+<namespace case="first-letter" key="11">మూస చర్చ</namespace>
+
+<namespace case="first-letter" key="12">సహాయం</namespace>
+
+<namespace case="first-letter" key="13">సహాయం చర్చ</namespace>
+
+<namespace case="first-letter" key="14">వర్గం</namespace>
+
+<namespace case="first-letter" key="15">వర్గం చర్చ</namespace>
+
+<namespace case="first-letter" key="106">Form</namespace>
+
+<namespace case="first-letter" key="107">Form talk</namespace>
+
+<namespace case="first-letter" key="120">Item</namespace>
+
+<namespace case="first-letter" key="121">Item talk</namespace>
+
+<namespace case="first-letter" key="122">Property</namespace>
+
+<namespace case="first-letter" key="123">Property talk</namespace>
+
+<namespace case="first-letter" key="482">Config</namespace>
+
+<namespace case="first-letter" key="483">Config talk</namespace>
+
+<namespace case="first-letter" key="710">TimedText</namespace>
+
+<namespace case="first-letter" key="711">TimedText talk</namespace>
+
+<namespace case="first-letter" key="828">మాడ్యూల్</namespace>
+
+<namespace case="first-letter" key="829">మాడ్యూల్ చర్చ</namespace>
+
+<namespace case="first-letter" key="2300">Gadget</namespace>
+
+<namespace case="first-letter" key="2301">Gadget talk</namespace>
+
+<namespace case="case-sensitive" key="2302">Gadget definition</namespace>
+
+<namespace case="case-sensitive" key="2303">Gadget definition talk</namespace>
+
+<namespace case="first-letter" key="2600">Topic</namespace>
+
+<namespace case="first-letter" key="3022">Tewiki</namespace>
+
+<namespace case="first-letter" key="3023">Tewiki talk</namespace>
+
+</namespaces>
+
+</siteinfo>
+
+
+	-<page>
+		<title>Adani Total Gas Ltd.</title>
+		<ns>0</ns>
+		<id>716500</id>
+		-<revision>
+			<id>716500</id>
+			<timestamp>2022-05-02T09-56-10Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3777">
+			
+{{Infobox 
+
+| label1 = సంస్థ పేరు 
+| data1 = అదానీ టోటల్ గ్యాస్ లిమిటెడ్
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = గుజరాత్
+| label4 = రకం
+| data4 = పబ్లిక్
+| label5 = పరిశ్రమ
+| data5 = సహజ వాయువు వినియోగాలు
+| label6 = వర్తకం 
+| data6	= {{BSE|542066}}, {{NSE|ATGL}} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= INE399L01023 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= L40100GJ2005PLC046553
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = 05 ఆగస్టు 2005
+| label11 = ప్రధాన కార్యాలయం
+| data11 = అహ్మదాబాద్
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = నరేష్ కుమార్ నయ్యర్, జోస్ ఇగ్నాసియో సాంజ్ సైజ్, చంద్ర అయ్యంగార్, ప్రణవ్ వినోద్ అదానీ, మహేశ్వర్ సాహ.
+}}
+
+
+&apos;&apos;&apos;అదానీ టోటల్ గ్యాస్ లిమిటెడ్&apos;&apos;&apos; ( Adani Total Gas Ltd. ) 05 ఆగస్టు 2005 న భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన పెద్ద సంస్థ. దీని ప్రధాన కార్యాలయం అహ్మదాబాద్ లో ఉంది. ఇది ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రధాన కార్యకలాపాలు శక్తి రంగంలో కలవు. సహజ వాయువు వినియోగాలు వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.5100000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.1100310083&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ టోటల్ గ్యాస్ లిమిటెడ్&apos;&apos;&apos;(Adani Total Gas Ltd.) 05 ఆగస్టు 2005 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. అదానీ గ్యాస్ లిమిటెడ్ అనేది ఈ సంస్థ పూర్వ (పాత) పేరు. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ టోటల్ గ్యాస్ లిమిటెడ్ సంస్థ డైరెక్టర్లు నరేష్ కుమార్ నయ్యర్, జోస్ ఇగ్నాసియో సాంజ్ సైజ్, చంద్ర అయ్యంగార్, ప్రణవ్ వినోద్ అదానీ, మహేశ్వర్ సాహ. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ టోటల్ గ్యాస్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు శక్తి రంగంలో కలవు. ఇది సహజ వాయువు వినియోగాలు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము విద్యుత్ గ్యాస్, నీటి సరఫరా&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. 
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA) నుండి వచ్చిన రికార్డుల ప్రకారం అదానీ టోటల్ గ్యాస్ లిమిటెడ్ సంస్థ కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L40100GJ2005PLC046553, దాని నమోదు సంఖ్య 46553 గా నమోదు చేయబడింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 542066, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ATGL. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE399L01023. 
+
+==మూలాలు==
+&lt;references /&gt;
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>r05vp73b64e2hyjcywg6a34k7la6t6o</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Adani Wilmar Ltd Equity</title>
+		<ns>0</ns>
+		<id>716501</id>
+		-<revision>
+			<id>716501</id>
+			<timestamp>2022-05-02T09-56-10Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3870">
+			
+{{Infobox 
+
+| label1 = సంస్థ పేరు 
+| data1 = అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = గుజరాత్
+| label4 = రకం
+| data4 = పబ్లిక్
+| label5 = పరిశ్రమ
+| data5 = కూరగాయల నూనెలు
+| label6 = వర్తకం 
+| data6	= {{BSE|543458}}, {{NSE|AWL}} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= INE699H01024 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= U15146GJ1999PLC035320
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = 22 జనవరి 1999
+| label11 = ప్రధాన కార్యాలయం
+| data11 = అహ్మదాబాద్
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = ఖూన్ హాంగ్ కుయోక్, మలయ్ రమేష్ మహాదేవియా, దోరబ్ ఎరాచ్ మిస్త్రీ, దిపాలి హేమంత్ షేత్, అంగ్షు మల్లిక్, మధు రామచంద్రరావు, అనుప్ ప్రవీణ్ షా, ప్రణవ్ వినోద్ అదానీ.
+}}
+
+
+&apos;&apos;&apos;అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ&apos;&apos;&apos; ( Adani Wilmar Ltd Equity ) 22 జనవరి 1999 న భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన పెద్ద సంస్థ. దీని ప్రధాన కార్యాలయం అహ్మదాబాద్ లో ఉంది. ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, RoC-అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రధాన కార్యకలాపాలు కన్స్యూమర్ స్టేపుల్స్ రంగంలో కలవు. ఈ సంస్థ కూరగాయల నూనెలు పరిశ్రమలో సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.3627600000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.11400&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ&apos;&apos;&apos;(Adani Wilmar Ltd Equity) 22 జనవరి 1999 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ సంస్థకి ప్రస్తుతం ఖూన్ హాంగ్ కుయోక్, మలయ్ రమేష్ మహాదేవియా, దోరబ్ ఎరాచ్ మిస్త్రీ, దిపాలి హేమంత్ షేత్, అంగ్షు మల్లిక్, మధు రామచంద్రరావు, అనుప్ ప్రవీణ్ షా, ప్రణవ్ వినోద్ అదానీ డైరెక్టర్లుగా నియమించబడ్డారు. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ సంస్థ ప్రధాన కార్యకలాపాలు కన్స్యూమర్ స్టేపుల్స్ రంగంలో కలవు. ఇది కూరగాయల నూనెలు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/2/large-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము తయారీ&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. 
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA) నుండి వచ్చిన రికార్డుల ప్రకారం అదానీ విల్మార్ లిమిటెడ్ ఈక్విటీ సంస్థ కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) U15146GJ1999PLC035320, దాని నమోదు సంఖ్య 35320 గా నమోదు చేయబడింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 543458, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ AWL. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE699H01024. 
+
+==మూలాలు==
+&lt;references /&gt;
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>pcspcz9rf1anehclpmpe7rdm3huvw3d</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Apollo Hospitals Enterprise Ltd.</title>
+		<ns>0</ns>
+		<id>716502</id>
+		-<revision>
+			<id>716502</id>
+			<timestamp>2022-05-02T09-56-10Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4057">
+			
+{{Infobox 
+
+| label1 = సంస్థ పేరు 
+| data1 = అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = తమిళనాడు
+| label4 = రకం
+| data4 = పబ్లిక్
+| label5 = పరిశ్రమ
+| data5 = ఆరోగ్య సేవలు
+| label6 = వర్తకం 
+| data6	= {{BSE|508869}}, {{NSE|APOLLOHOSP}} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= INE437A01024 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= L85110TN1979PLC008035
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = 05 డిసెంబర్ 1979
+| label11 = ప్రధాన కార్యాలయం
+| data11 = చెన్నై
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = రమా బీజాపూర్కర్, సునీతారెడ్డి, పుదుగ్రామం మురళీ దొరైస్వామి, భాస్కర మండవిల్లి నాగేశ్వరరావు, ప్రతాప్ చంద్రారెడ్డి, శోభనా కామినేని, సంగీతారెడ్డి, వెలగపూడి కవితా దత్, ప్రీతారెడ్డి, వినాయక్ ఛటర్జీ, సోమ్ మిట్టల్.
+}}
+
+
+&apos;&apos;&apos;అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్&apos;&apos;&apos; ( Apollo Hospitals Enterprise Ltd. ) 05 డిసెంబర్ 1979 న భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన పెద్ద సంస్థ. దీని ప్రధాన కార్యాలయం చెన్నై లో ఉంది. ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC చెన్నై లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా ఆరోగ్య సంరక్షణ రంగంలో కార్యకలాపాలు కలవు. ఆరోగ్య సేవలు వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.1100000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.695625795&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్&apos;&apos;&apos;(Apollo Hospitals Enterprise Ltd.) 05 డిసెంబర్ 1979 న తమిళనాడు లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్ సంస్థకి ప్రస్తుతం రమా బీజాపూర్కర్, సునీతారెడ్డి, పుదుగ్రామం మురళీ దొరైస్వామి, భాస్కర మండవిల్లి నాగేశ్వరరావు, ప్రతాప్ చంద్రారెడ్డి, శోభనా కామినేని, సంగీతారెడ్డి, వెలగపూడి కవితా దత్, ప్రీతారెడ్డి, వినాయక్ ఛటర్జీ, సోమ్ మిట్టల్ డైరెక్టర్లుగా నియమించబడ్డారు. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు ఆరోగ్య సంరక్షణ రంగంలో కలవు. ఇది ఆరోగ్య సేవలు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/2/large-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము ఆరోగ్యం, సామాజిక పని&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. 
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), అపోలో హాస్పిటల్స్ ఎంటర్‌ప్రైజ్ లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L85110TN1979PLC008035, నమోదు సంఖ్య 08035 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు ఇంటిగ్రేటెడ్ రిజిస్ట్రీ మేనేజ్‌మెంట్ సర్వీసెస్ ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200264. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 508869, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ APOLLOHOSP. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE437A01024. 
+
+==మూలాలు==
+&lt;references /&gt;
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: తమిళనాడు లోని సంస్థలు]]
+			</text>
+			<sha1>sw853t6dproxhjqo8tme5ptrptg8y7j</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Bajaj Holdings &amp; Investment Ltd.</title>
+		<ns>0</ns>
+		<id>716503</id>
+		-<revision>
+			<id>716503</id>
+			<timestamp>2022-05-02T09-56-10Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4195">
+			
+{{Infobox 
+
+| label1 = సంస్థ పేరు 
+| data1 = బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = మహారాష్ట్ర
+| label4 = రకం
+| data4 = పబ్లిక్
+| label5 = పరిశ్రమ
+| data5 = పెట్టుబడి సేవలు
+| label6 = వర్తకం 
+| data6	= {{BSE|500490}}, {{NSE|BAJAJHLDNG}} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= INE118A01012 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= L35911PN1945PLC004656
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = 29 నవంబర్ 1945
+| label11 = ప్రధాన కార్యాలయం
+| data11 = పూణే
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = అరిందమ్ కుమార్ భట్టాచార్య, సంజీవనయన్ రాహుల్కుమార్ బజాజ్, ప్రదీప్ పనాలాల్ షా, అనామి నారాయణ్ ప్రేమా రాయ్, మధుర్ బజాజ్, నీరాజ్ రామకృష్ణ బజాజ్, మనీష్ సంతోష్కుమార్ కేజ్రీవాల్, నౌషద్ డారియస్ ఫోర్బ్స్, గీతా పిరమల్, రాజీవ్నయన్ రాహుల్కుమార్ బజాజ్, బాలాజీ రావ్ జగన్నాథరావ్, బజాజ్ జగన్నాథరావు.
+}}
+
+
+&apos;&apos;&apos;బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్&apos;&apos;&apos; ( Bajaj Holdings &amp; Investment Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 29 నవంబర్ 1945 న స్థాపించబడిన పెద్ద సంస్థ. దీని ప్రధాన కార్యాలయం పూణే లో ఉంది. ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC పూణే లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రధాన కార్యకలాపాలు ఆర్థిక రంగంలో కలవు. పెట్టుబడి సేవలు వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.1500000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.1112935100&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్&apos;&apos;&apos;(Bajaj Holdings &amp; Investment Ltd.) 29 నవంబర్ 1945 న మహారాష్ట్ర లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ పూర్వ (పాత) పేరు బజాజ్ ఆటో లిమిటెడ్. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్ సంస్థ డైరెక్టర్లు అరిందమ్ కుమార్ భట్టాచార్య, సంజీవనయన్ రాహుల్కుమార్ బజాజ్, ప్రదీప్ పనాలాల్ షా, అనామి నారాయణ్ ప్రేమా రాయ్, మధుర్ బజాజ్, నీరాజ్ రామకృష్ణ బజాజ్, మనీష్ సంతోష్కుమార్ కేజ్రీవాల్, నౌషద్ డారియస్ ఫోర్బ్స్, గీతా పిరమల్, రాజీవ్నయన్ రాహుల్కుమార్ బజాజ్, బాలాజీ రావ్ జగన్నాథరావ్, బజాజ్ జగన్నాథరావు. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు ఆర్థిక రంగంలో కలవు. ఇది పెట్టుబడి సేవలు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/2/large-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము తయారీ&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. 
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), బజాజ్ హోల్డింగ్స్ &amp; ఇన్వెస్ట్‌మెంట్ లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L35911PN1945PLC004656, నమోదు సంఖ్య 04656 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు కెఫిన్ టెక్నాలజీస్ ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200800. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 500490, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ BAJAJHLDNG. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE118A01012. 
+
+==మూలాలు==
+&lt;references /&gt;
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: మహారాష్ట్ర లోని సంస్థలు]]
+			</text>
+			<sha1>34oirt0dnmmxancfwjkdu6qmls4qdzq</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Berger Paints India Ltd.</title>
+		<ns>0</ns>
+		<id>716504</id>
+		-<revision>
+			<id>716504</id>
+			<timestamp>2022-05-02T09-56-10Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4033">
+			
+{{Infobox 
+
+| label1 = సంస్థ పేరు 
+| data1 = బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్
+| label2 = దేశం 
+| data2 = భారతదేశం
+| label3 = రాష్ట్రం
+| data3 = పశ్చిమ బెంగాల్
+| label4 = రకం
+| data4 = పబ్లిక్
+| label5 = పరిశ్రమ
+| data5 = పెయింట్స్ &amp; వార్నిష్‌లు
+| label6 = వర్తకం 
+| data6	= {{BSE|509480}}, {{NSE|BERGEPAINT}} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= INE463A01038 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= L51434WB1923PLC004793
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+| label10 = స్థాపించబడింది
+| data10 = 17 డిసెంబర్ 1923
+| label11 = ప్రధాన కార్యాలయం
+| data11 = కోల్‌కతా
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = కన్వర్దిప్ సింగ్ ధింగ్రా, గుర్బచన్ సింగ్ ధింగ్రా, అనూప్ హూన్, సోనూ హలన్ భాసిన్, అనూప్ కుమార్ మిట్టల్, పులక్ చందన్ ప్రసాద్, నరేష్ గుజ్రాల్, రిష్మా కౌర్, కుల్దీప్ సింగ్ ధింగ్రా, అభిజిత్ రాయ్.
+}}
+
+
+&apos;&apos;&apos;బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్&apos;&apos;&apos; ( Berger Paints India Ltd. ) 17 డిసెంబర్ 1923 న భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన పెద్ద సంస్థ. కోల్‌కతా లో దీని ప్రధాన కార్యాలయం ఉంది. ఇది ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC కోల్‌కతా లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా మెటీరియల్స్ రంగంలో కార్యకలాపాలు కలవు. పెయింట్స్ &amp; వార్నిష్‌లు వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.1200000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.971219780&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్&apos;&apos;&apos;(Berger Paints India Ltd.) 17 డిసెంబర్ 1923 న పశ్చిమ బెంగాల్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్ సంస్థ డైరెక్టర్లు కన్వర్దిప్ సింగ్ ధింగ్రా, గుర్బచన్ సింగ్ ధింగ్రా, అనూప్ హూన్, సోనూ హలన్ భాసిన్, అనూప్ కుమార్ మిట్టల్, పులక్ చందన్ ప్రసాద్, నరేష్ గుజ్రాల్, రిష్మా కౌర్, కుల్దీప్ సింగ్ ధింగ్రా, అభిజిత్ రాయ్. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు మెటీరియల్స్ రంగంలో కలవు. ఇది పెయింట్స్ &amp; వార్నిష్‌లు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/2/large-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము మోటారు వాహనాల మోటార్ సైకిళ్లు, వ్యక్తిగత, గృహోపకరణాల టోకు, రిటైల్ వాణిజ్య మరమ్మత్తు&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. 
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), బెర్గర్ పెయింట్స్ ఇండియా లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L51434WB1923PLC004793, నమోదు సంఖ్య 04793 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు సి బి మేనేజ్మెంట్ సర్వీసెస్ ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200221. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 509480, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ BERGEPAINT. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE463A01038. 
+
+==మూలాలు==
+&lt;references /&gt;
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: పశ్చిమ బెంగాల్ లోని సంస్థలు]]
+			</text>
+			<sha1>rzu5qrn6j4bz14r6i2uk7v2g98dozzy</sha1>
+		</revision>
+	</page>
+	
+
+</mediawiki>

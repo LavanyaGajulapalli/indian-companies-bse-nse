@@ -1,0 +1,465 @@
+-<mediawiki xml:lang="te" version="0.10" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.mediawiki.org/xml/export-0.10/">
+
+
+-<siteinfo>
+
+<sitename>tewiki</sitename>
+
+<dbname>indicwiki</dbname>
+
+<base>https://tewiki.iiit.ac.in/index.php?title=%E0%B0%AE%E0%B1%8A%E0%B0%A6%E0%B0%9F%E0%B0%BF_%E0%B0%AA%E0%B1%87%E0%B0%9C%E0%B1%80</base>
+
+<generator>MediaWiki 1.34.0</generator>
+
+<case>first-letter</case>
+
+
+-<namespaces>
+
+<namespace case="first-letter" key="-2">మీడియా</namespace>
+
+<namespace case="first-letter" key="-1">ప్రత్యేక</namespace>
+
+<namespace case="first-letter" key="0"/>
+
+<namespace case="first-letter" key="1">చర్చ</namespace>
+
+<namespace case="first-letter" key="2">వాడుకరి</namespace>
+
+<namespace case="first-letter" key="3">వాడుకరి చర్చ</namespace>
+
+<namespace case="first-letter" key="4">Project</namespace>
+
+<namespace case="first-letter" key="5">Project చర్చ</namespace>
+
+<namespace case="first-letter" key="6">దస్త్రం</namespace>
+
+<namespace case="first-letter" key="7">దస్త్రంపై చర్చ</namespace>
+
+<namespace case="first-letter" key="8">మీడియావికీ</namespace>
+
+<namespace case="first-letter" key="9">మీడియావికీ చర్చ</namespace>
+
+<namespace case="first-letter" key="10">మూస</namespace>
+
+<namespace case="first-letter" key="11">మూస చర్చ</namespace>
+
+<namespace case="first-letter" key="12">సహాయం</namespace>
+
+<namespace case="first-letter" key="13">సహాయం చర్చ</namespace>
+
+<namespace case="first-letter" key="14">వర్గం</namespace>
+
+<namespace case="first-letter" key="15">వర్గం చర్చ</namespace>
+
+<namespace case="first-letter" key="106">Form</namespace>
+
+<namespace case="first-letter" key="107">Form talk</namespace>
+
+<namespace case="first-letter" key="120">Item</namespace>
+
+<namespace case="first-letter" key="121">Item talk</namespace>
+
+<namespace case="first-letter" key="122">Property</namespace>
+
+<namespace case="first-letter" key="123">Property talk</namespace>
+
+<namespace case="first-letter" key="482">Config</namespace>
+
+<namespace case="first-letter" key="483">Config talk</namespace>
+
+<namespace case="first-letter" key="710">TimedText</namespace>
+
+<namespace case="first-letter" key="711">TimedText talk</namespace>
+
+<namespace case="first-letter" key="828">మాడ్యూల్</namespace>
+
+<namespace case="first-letter" key="829">మాడ్యూల్ చర్చ</namespace>
+
+<namespace case="first-letter" key="2300">Gadget</namespace>
+
+<namespace case="first-letter" key="2301">Gadget talk</namespace>
+
+<namespace case="case-sensitive" key="2302">Gadget definition</namespace>
+
+<namespace case="case-sensitive" key="2303">Gadget definition talk</namespace>
+
+<namespace case="first-letter" key="2600">Topic</namespace>
+
+<namespace case="first-letter" key="3022">Tewiki</namespace>
+
+<namespace case="first-letter" key="3023">Tewiki talk</namespace>
+
+</namespaces>
+
+</siteinfo>
+
+
+	-<page>
+		<title>Adani Enterprises Ltd.</title>
+		<ns>0</ns>
+		<id>716000</id>
+		-<revision>
+			<id>716000</id>
+			<timestamp>2022-04-28T20-36-35Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4142">
+			
+{{Infobox company
+| name = అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్
+| logo = Adani_logo_2012.svg
+| type = పబ్లిక్
+
+| traded_as = {{BSE|512599}}, {{NSE|ADANIENT}}
+
+
+| ISIN = INE423A01024
+| industry = ట్రేడింగ్
+| founded = 02-మార్చి-1993
+| former_name = అదానీ ఎక్స్‌పోర్ట్స్ లిమిటెడ్
+| hq_location = అహ్మదాబాద్
+| hq_location_city = గుజరాత్
+| hq_location_country = భారతదేశం
+| key_people = వినయ్ ప్రకాష్, హేమంత్ నెరుర్కర్ మధుసూదన్, నరేంద్ర మైర్పాడి, వెంకటరామన్ సుబ్రమణియన్, గౌతమ్ శాంతిలాల్ అదానీ, రాజేష్ శాంతిలాల్ అదానీ, ప్రణవ్ వినోద్ అదానీ, విజయ్ లక్ష్మీ జోషి.
+| website =www.adanienterprises.com
+| authorized_capital =4904200000
+| paidup_capital =1099810083
+}}
+
+
+&apos;&apos;&apos;అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్&apos;&apos;&apos; ( Adani Enterprises Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 02-మార్చి-1993 న స్థాపించబడిన పెద్ద సంస్థ. అహ్మదాబాద్ లో దీని ప్రధాన కార్యాలయం ఉంది&lt;ref&gt;{{Cite web|url=https://en.wikipedia.org/wiki/Adani_Enterprises | title=అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్|website=en.wikipedia.org|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా సేవలు రంగంలో కార్యకలాపాలు కలవు. ఈ సంస్థ ట్రేడింగ్ పరిశ్రమలో సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.4904200000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.1099810083&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్&apos;&apos;&apos;(Adani Enterprises Ltd.) 1993-02-03 00:00:00 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. దీని యొక్క పాత పేరు అదానీ ఎక్స్‌పోర్ట్స్ లిమిటెడ్. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్ సంస్థ డైరెక్టర్లు వినయ్ ప్రకాష్, హేమంత్ నెరుర్కర్ మధుసూదన్, నరేంద్ర మైర్పాడి, వెంకటరామన్ సుబ్రమణియన్, గౌతమ్ శాంతిలాల్ అదానీ, రాజేష్ శాంతిలాల్ అదానీ, ప్రణవ్ వినోద్ అదానీ, విజయ్ లక్ష్మీ జోషి. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు సేవలు రంగంలో కలవు. ఇది ట్రేడింగ్ వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము మోటారు వాహనాల మోటార్ సైకిళ్లు, వ్యక్తిగత, గృహోపకరణాల హోల్ సేల్, రిటైల్ ట్రేడ్ రిపేర్&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. 
+    
+
+
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), అదానీ ఎంటర్‌ప్రైజెస్ లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L51100GJ1993PLC019067, నమోదు సంఖ్య 19067 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 512599, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ADANIENT. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE423A01024. 
+*ఈ సంస్థ ఇమెయిల్ చిరునామా jaladhi.shukla@adani.com, రిజిస్టర్డ్  చిరునామా అదానీ కార్పొరేట్ హైస్, అహ్మదాబాద్, అహ్మదాబాద్, S. శాంతిగ్రామ్ సమీపంలోని వైష్ణోదియార్. GJ 382421 భారతదేశం. 
+
+    
+
+==మూలాలు==
+&lt;references /&gt;
+
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>j7jk9geeoabo7a4stcukvnpszj15e23</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Adani Green Energy Ltd.</title>
+		<ns>0</ns>
+		<id>716001</id>
+		-<revision>
+			<id>716001</id>
+			<timestamp>2022-04-28T20-36-35Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4169">
+			
+{{Infobox company
+| name = అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్
+| logo = KamuthiSolarPark.jpg
+| type = పబ్లిక్
+
+| traded_as = {{BSE|541450}}, {{NSE|ADANIGREEN}}
+
+
+| ISIN = INE364U01010
+| industry = పవర్ ప్రాజెక్ట్స్
+| founded = 23-జనవరి-2015
+| hq_location = అహ్మదాబాద్
+| hq_location_city = గుజరాత్
+| hq_location_country = భారతదేశం
+| key_people = దినేష్ హస్ముఖ్రాయ్ కనబర్, గౌతమ్ శాంతిలాల్ అదానీ, రోమేష్ సోబ్తి, సందీప్ మోహన్రాజ్ సింఘి, పూర్ణిమా గోవింద్ అద్వానీ, రాజేష్ శాంతిలాల్ అదానీ, జోస్ ఇగ్నాసియో సాంజ్ సైజ్, వినీత్ ఎస్ జైన్, రమీందర్ సింగ్ గుజ్రాల్, సాగర్.
+| website =www.adanigreenenergy.com
+| authorized_capital =25000000000
+| paidup_capital =15640142800
+}}
+
+
+&apos;&apos;&apos;అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్&apos;&apos;&apos; ( Adani Green Energy Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 23-జనవరి-2015 న స్థాపించబడిన పెద్ద సంస్థ. అహ్మదాబాద్ లో దీని ప్రధాన కార్యాలయం ఉంది&lt;ref&gt;{{Cite web|url=https://en.wikipedia.org/wiki/Adani_Green_Energy | title=అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్|website=en.wikipedia.org|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా మూలధన వస్తువులు రంగంలో కార్యకలాపాలు కలవు. పవర్ ప్రాజెక్ట్స్ వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.25000000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.15640142800&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్&apos;&apos;&apos;(Adani Green Energy Ltd.) 23-01-2015 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్ సంస్థ డైరెక్టర్లు దినేష్ హస్ముఖ్రాయ్ కనబర్, గౌతమ్ శాంతిలాల్ అదానీ, రోమేష్ సోబ్తి, సందీప్ మోహన్రాజ్ సింఘి, పూర్ణిమా గోవింద్ అద్వానీ, రాజేష్ శాంతిలాల్ అదానీ, జోస్ ఇగ్నాసియో సాంజ్ సైజ్, వినీత్ ఎస్ జైన్, రమీందర్ సింగ్ గుజ్రాల్, సాగర్. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు మూలధన వస్తువులు రంగంలో కలవు. ఇది పవర్ ప్రాజెక్ట్స్ వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము విద్యుత్ గ్యాస్, నీటి సరఫరా&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. 
+    
+
+
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA) నుండి వచ్చిన రికార్డుల ప్రకారం అదానీ గ్రీన్ ఎనర్జీ లిమిటెడ్ సంస్థ కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L40106GJ2015PLC082007, దాని నమోదు సంఖ్య 82007 గా నమోదు చేయబడింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 541450, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ADANIGREEN. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE364U01010. 
+*ఈ సంస్థ ఇమెయిల్ చిరునామా pragnesh.darji@adani.com, రిజిస్టర్డ్  చిరునామా అదానీ కార్పొరేట్ హైవే, శాంతిగ్రామ్, అహ్మదాబాద్ సమీపంలోని అదానీ కార్పోరేట్ హౌస్, శాంతిగ్రామ్. అహ్మదాబాద్ GJ 382421 భారతదేశం. 
+
+    
+
+==మూలాలు==
+&lt;references /&gt;
+
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>1pxkqhl4419r0u53llvto9ao9d1oyoj</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Adani Ports and Special Economic Zone Ltd.</title>
+		<ns>0</ns>
+		<id>716002</id>
+		-<revision>
+			<id>716002</id>
+			<timestamp>2022-04-28T20-36-35Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4625">
+			
+{{Infobox company
+| name = అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్
+| logo = Adani_Ports_Logo.svg
+| type = పబ్లిక్
+
+| traded_as = {{BSE|532921}}, {{NSE|ADANIPORTS}}
+
+
+| ISIN = INE742F01042
+| industry = మెరైన్ పోర్ట్ సర్వీసెస్
+| founded = 26-మే-1998
+| former_name = ముంద్రా పోర్ట్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్
+| hq_location = అహ్మదాబాద్
+| hq_location_city = గుజరాత్
+| hq_location_country = భారతదేశం
+| key_people = గోపాల్ కృష్ణ పిళ్లై, కరణ్ గౌతమ్ అదానీ, గణేశన్ రఘురామ్, రాజేష్ శాంతిలాల్ అదానీ, భరత్ కనైలాల్ షెత్, మలయ్ రమేష్ మహాదేవి, నిరుపమా రావు, అవంతికాసింగ్ ఔలఖ్, పాలమడై సుందరరాజన్ జయకుమార్, అదాని శాంతిలాల్, గౌతమ్ శాంతిలాల్.
+| website =adaniports.com
+| authorized_capital =10000000000
+| paidup_capital =4170013892
+}}
+
+
+&apos;&apos;&apos;అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్&apos;&apos;&apos; ( Adani Ports and Special Economic Zone Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 26-మే-1998 న స్థాపించబడిన పెద్ద సంస్థ. అహ్మదాబాద్ లో దీని ప్రధాన కార్యాలయం ఉంది&lt;ref&gt;{{Cite web|url=https://en.wikipedia.org/wiki/Adani_Ports_%26_SEZ | title=అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్|website=en.wikipedia.org|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా సేవలు రంగంలో కార్యకలాపాలు కలవు. మెరైన్ పోర్ట్ సర్వీసెస్ వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.10000000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.4170013892&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్&apos;&apos;&apos;(Adani Ports and Special Economic Zone Ltd.) 26-05-1998 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. దీని యొక్క పాత పేరు ముంద్రా పోర్ట్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్ సంస్థ డైరెక్టర్లు గోపాల్ కృష్ణ పిళ్లై, కరణ్ గౌతమ్ అదానీ, గణేశన్ రఘురామ్, రాజేష్ శాంతిలాల్ అదానీ, భరత్ కనైలాల్ షెత్, మలయ్ రమేష్ మహాదేవి, నిరుపమా రావు, అవంతికాసింగ్ ఔలఖ్, పాలమడై సుందరరాజన్ జయకుమార్, అదాని శాంతిలాల్, గౌతమ్ శాంతిలాల్. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు సేవలు రంగంలో కలవు. ఇది మెరైన్ పోర్ట్ సర్వీసెస్ వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము రవాణా నిల్వ, కమ్యూనికేషన్లు&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. 
+    
+
+== అవార్డులు ==
+2019లో, సంస్థ మొట్టమొదటి జాతీయ CSR అవార్డు వేడుకలో &apos;గౌరవ ప్రత్యేక ప్రస్తావన&apos; అవార్డును గెలుచుకుంది. ఈ అవార్డును ఆర్థిక మంత్రి నిర్మలా సీతారామన్ మరియు ఆమె డిప్యూటీ అనురాగ్ ఠాకూర్ అందజేశారు. 
+
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), అదానీ పోర్ట్స్ అండ్ స్పెషల్ ఎకనామిక్ జోన్ లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L63090GJ1998PLC034182, నమోదు సంఖ్య 34182 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 532921, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ADANIPORTS. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE742F01042. 
+*ఈ సంస్థ ఇమెయిల్ చిరునామా kamlesh.bhagia@adani.com, రిజిస్టర్డ్  అడ్రస్ అదానీ కార్పొరేట్ హౌస్, శాంతినో సి, శాంతినో సి హైవే, ఖోడియార్ అహ్మదాబాద్ అహ్మదాబాద్ GJ 382421 భారతదేశం. 
+
+    
+
+==మూలాలు==
+&lt;references /&gt;
+
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>kxjfok8b2tgl95lb80s4ax8po3jpfsh</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Adani Transmission Ltd.</title>
+		<ns>0</ns>
+		<id>716003</id>
+		-<revision>
+			<id>716003</id>
+			<timestamp>2022-04-28T20-36-35Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="3840">
+			
+{{Infobox company
+| name = అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్
+| logo = Adani_Transmission.png
+| type = పబ్లిక్
+
+| traded_as = {{BSE|539254}}, {{NSE|ADANITRANS}}
+
+
+| ISIN = INE931S01010
+| industry = విద్యుత్ పంపిణీ
+| founded = 09-డిసెంబర్-2013
+| hq_location = అహ్మదాబాద్
+| hq_location_city = గుజరాత్
+| hq_location_country = భారతదేశం
+| key_people = గౌతమ్ శాంతిలాల్ అదానీ, అనిల్ కుమార్ సర్దానా, రవీంద్ర హర్షద్రాయ్ ధోలాకియా, కలైకురుచి జైరాజ్, లిసా కరోలిన్ మక్కల్లమ్, రాజేష్ శాంతిలాల్ అదానీ, మీరా శంకర్.
+| website =www.adanitransmission.com
+| authorized_capital =15000000000
+| paidup_capital =10998100830
+}}
+
+
+&apos;&apos;&apos;అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్&apos;&apos;&apos; ( Adani Transmission Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 09-డిసెంబర్-2013 న స్థాపించబడిన పెద్ద సంస్థ. దీని ప్రధాన కార్యాలయం అహ్మదాబాద్ లో ఉంది. ఈ సంస్థ ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC అహ్మదాబాద్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థకు ప్రధానంగా శక్తి రంగంలో కార్యకలాపాలు కలవు. ఈ సంస్థ విద్యుత్ పంపిణీ పరిశ్రమలో సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.15000000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.10998100830&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్&apos;&apos;&apos;(Adani Transmission Ltd.) 2013-09-12 00:00:00 న గుజరాత్ లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్ సంస్థకి ప్రస్తుతం గౌతమ్ శాంతిలాల్ అదానీ, అనిల్ కుమార్ సర్దానా, రవీంద్ర హర్షద్రాయ్ ధోలాకియా, కలైకురుచి జైరాజ్, లిసా కరోలిన్ మక్కల్లమ్, రాజేష్ శాంతిలాల్ అదానీ, మీరా శంకర్ డైరెక్టర్లుగా నియమించబడ్డారు. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు శక్తి రంగంలో కలవు. ఇది విద్యుత్ పంపిణీ వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము విద్యుత్ గ్యాస్, నీటి సరఫరా&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. 
+    
+
+
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), అదానీ ట్రాన్స్‌మిషన్ లిమిటెడ్  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L40300GJ2013PLC077803, నమోదు సంఖ్య 77803 ని కేటాయించింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు లింక్ ఇన్‌టైమ్ ఇండియా ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200094. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 539254, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ADANITRANS. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE931S01010. 
+*ఈ సంస్థ ఇమెయిల్ చిరునామా pritesh.shah@adani.com, రిజిస్టర్డ్  చిరునామా అదానీ కార్పొరేట్ హౌస్, అహ్మదాబాద్ సమీపంలో శాంతిగ్రామ్, వైష్ణో దేవి జిహోయార్. GJ 382421 భారతదేశం. 
+
+    
+
+==మూలాలు==
+&lt;references /&gt;
+
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: గుజరాత్ లోని సంస్థలు]]
+			</text>
+			<sha1>ck0lu8pqzq3uk28xk4mtggbt6zykmhl</sha1>
+		</revision>
+	</page>
+	
+
+
+
+
+	-<page>
+		<title>Asian Paints Ltd.</title>
+		<ns>0</ns>
+		<id>716004</id>
+		-<revision>
+			<id>716004</id>
+			<timestamp>2022-04-28T20-36-35Z</timestamp>
+			-<contributor>
+				<username>lavanya</username>
+				<id>18854</id>
+			</contributor>
+			<comment>xmlpage created</comment>
+			<model>wikitext</model>
+			<format>text/x-wiki</format>
+			<text xml:space="preserve" bytes="4288">
+			
+{{Infobox company
+| name = ఏషియన్ పెయింట్స్ లిమిటెడ్
+| logo = Asian_paints_logo.svg
+| type = పబ్లిక్
+
+| traded_as = {{BSE|500820}}, {{NSE|ASIANPAINT}}
+
+
+| ISIN = INE021A01026
+| industry = పెయింట్స్ &amp; వార్నిష్‌లు
+| founded = 24-అక్టోబర్-1945
+| former_name = ఏషియన్ పెయింట్స్ (ఇండియా) లిమిటెడ్
+| hq_location = ముంబయి
+| hq_location_city = మహారాష్ట్ర
+| hq_location_country = భారతదేశం
+| key_people = దీపక్ మాధవ్ సత్వలేకర్, పల్లవి శార్దూల్ ష్రాఫ్, మనీష్ మహేంద్ర చోక్సీ, మిలింద్ శ్రీపాద్ సర్వతే, మాళవ్ అశ్విన్ డాని, మహేంద్రకుమార్ శర్మ, అశ్విన్ సూర్యకాంత్ డాని, అమృతా అమర్ వాకిల్, అమిత్ సింగ్, సురేశ్భా రి నారాయణన్, శేషసాయి, వీ పౌలు, శేషసాయి జిగిష్ శైలేష్ చోక్సీ.
+| website =asianpaints.com
+| authorized_capital =1000000000
+| paidup_capital =959197790
+}}
+
+
+&apos;&apos;&apos;ఏషియన్ పెయింట్స్ లిమిటెడ్&apos;&apos;&apos; ( Asian Paints Ltd. ) భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం 24-అక్టోబర్-1945 న స్థాపించబడిన పెద్ద సంస్థ. ముంబయి లో దీని ప్రధాన కార్యాలయం ఉంది&lt;ref&gt;{{Cite web|url=https://en.wikipedia.org/wiki/Asian_Paints | title=ఏషియన్ పెయింట్స్ లిమిటెడ్|website=en.wikipedia.org|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ప్రభుత్వేతర సంస్థ గా వర్గీకరించబడింది. దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, ROC ముంబయి లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రధాన కార్యకలాపాలు మెటీరియల్స్ రంగంలో కలవు. పెయింట్స్ &amp; వార్నిష్‌లు వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ.1000000000, దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ.959197790&lt;ref&gt;{{Cite web|url=https://www.thecompanycheck.com/ | title=companycheck|website=www.thecompanycheck.com|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==చరిత్ర==
+&apos;&apos;&apos;ఏషియన్ పెయింట్స్ లిమిటెడ్&apos;&apos;&apos;(Asian Paints Ltd.) 24-10-1945 న మహారాష్ట్ర లో నమోదు చేయబడింది&lt;ref&gt;{{Cite web|url=https://www.zaubacorp.com/ | title=zaubacorp|website=www.zaubacorp.com|access-date=2022-04-22}}&lt;/ref&gt; . ఇది ఒక పబ్లిక్ లిమిటెడ్ సంస్థ. ఏషియన్ పెయింట్స్ (ఇండియా) లిమిటెడ్ అనేది ఈ సంస్థ పూర్వ (పాత) పేరు. ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. ఏషియన్ పెయింట్స్ లిమిటెడ్ సంస్థకి ప్రస్తుతం దీపక్ మాధవ్ సత్వలేకర్, పల్లవి శార్దూల్ ష్రాఫ్, మనీష్ మహేంద్ర చోక్సీ, మిలింద్ శ్రీపాద్ సర్వతే, మాళవ్ అశ్విన్ డాని, మహేంద్రకుమార్ శర్మ, అశ్విన్ సూర్యకాంత్ డాని, అమృతా అమర్ వాకిల్, అమిత్ సింగ్, సురేశ్భా రి నారాయణన్, శేషసాయి, వీ పౌలు, శేషసాయి జిగిష్ శైలేష్ చోక్సీ డైరెక్టర్లుగా నియమించబడ్డారు. అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది&lt;ref&gt;{{Cite web|url=https://nsdl.co.in/ | title=nsdl|website=nsdl.co.in|access-date=2022-04-22}}&lt;/ref&gt; . 
+
+==కార్యకలపాలు ==
+ఏషియన్ పెయింట్స్ లిమిటెడ్ సంస్థ ప్రధాన కార్యకలాపాలు మెటీరియల్స్ రంగంలో కలవు. ఇది పెయింట్స్ &amp; వార్నిష్‌లు వంటి పరిశ్రమలో సేవలను అందిస్తుంది&lt;ref&gt;{{Cite web|url=https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval | title=కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి|website=www.valueresearchonline.com|access-date=2022-04-22}}&lt;/ref&gt; . సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము తయారీ&lt;ref&gt;{{Cite web|url=https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019  | title=kaggle dataset|website=www.kaggle.com|access-date=2022-04-22}}&lt;/ref&gt; . ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. 
+    
+
+
+
+==ఇతర వివరాలు==
+*భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA) నుండి వచ్చిన రికార్డుల ప్రకారం ఏషియన్ పెయింట్స్ లిమిటెడ్ సంస్థ కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) L24220MH1945PLC004598, దాని నమోదు సంఖ్య 04598 గా నమోదు చేయబడింది. 
+*ఈ సంస్థ రిజిస్ట్రార్ &amp; ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు టి.ఎస్.ఆర్ దరాషా కన్సల్టెంట్స్ ప్రైవేట్ లిమిటెడ్, గుర్తింపు సంఖ్య IN200125. 
+*ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ 500820, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ ASIANPAINT. 
+*ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) INE021A01026. 
+*ఈ సంస్థ ఇమెయిల్ చిరునామా investor.relations@asianpaints.com, రిజిస్టర్డ్  చిరునామా 6శాంతి నగర్ శాంటాక్రూజ్ E ముంబై MH 400055 భారతదేశం. 
+
+    
+
+==మూలాలు==
+&lt;references /&gt;
+
+
+[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    [[వర్గం: మహారాష్ట్ర లోని సంస్థలు]]
+			</text>
+			<sha1>cip51n1ad3mq35phytx6k6grmro6xk3</sha1>
+		</revision>
+	</page>
+	
+
+</mediawiki>

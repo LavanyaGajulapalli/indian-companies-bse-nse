@@ -1,0 +1,351 @@
+{%- macro infobox(Company_Tel,REGISTERED_STATE_Tel,COMPANY_CLASS_Tel,Industry_Tel,BSE_code,NSE_code,ISIN,CIN,date_of_incorp_Tel,REGISTRAR_OF_COMPANIES_Tel,Description_3) -%}
+
+{{'{{Infobox '}}
+
+| label1 = సంస్థ పేరు 
+| data1 = {{Company_Tel}}
+| label2 = దేశం 
+| data2 = భారతదేశం
+{%- if REGISTERED_STATE_Tel!='NaN' %}
+| label3 = రాష్ట్రం
+| data3 = {{REGISTERED_STATE_Tel}}
+{%- endif %}
+{%- if COMPANY_CLASS_Tel!='NaN' %}
+| label4 = రకం
+| data4 = {{COMPANY_CLASS_Tel}}
+{%- endif %}
+{%- if Industry_Tel!='NaN' %}
+| label5 = పరిశ్రమ
+| data5 = {{Industry_Tel}}
+{%- endif %}
+| label6 = వర్తకం
+{%- if BSE_code!= 'NaN' and NSE_code!='NaN' %} 
+| data6	= {{"{{BSE|"+BSE_code+"}}, {{NSE|"+NSE_code+"}}"}}
+{%- elif BSE_code!= 'NaN' and NSE_code=='NaN' %} 
+| data6	= {{"{{BSE|"+BSE_code+"}}"}}
+{%- elif BSE_code== 'NaN' and NSE_code!='NaN' %} 
+| data6	= {{"{{NSE|"+NSE_code+"}}"}}
+{%- endif %}
+{%- if ISIN!= 'NaN' %} 
+| label7 = ఐ.ఎస్.ఐ.ఎన్  
+| data7	= {{ISIN}}
+{%- endif %}
+{%- if CIN!= 'NaN' %} 
+| label8 = కార్పొరేట్ గుర్తింపు సంఖ్య
+| data8	= {{CIN}}
+{%- endif %}
+| label9 = గుర్తింపు
+| data9 = కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA)
+{%- if date_of_incorp_Tel!= 'NaN' %}
+| label10 = స్థాపించబడింది
+| data10 = {{date_of_incorp_Tel}} 
+{%- endif %}
+
+{%- if REGISTRAR_OF_COMPANIES_Tel!= 'NaN' %}
+| label11 = ప్రధాన కార్యాలయం
+| data11 = {{REGISTRAR_OF_COMPANIES_Tel[4:]}}
+{%- endif %}
+
+{%- if Description_3!= 'NaN' %}
+| label12 = ప్రధాన వ్యక్తులు
+| data12 = {{Description_3.split("డైరెక్టర్లు ")[1]+"."}}
+{%- endif %}
+{{'}}\n'}}
+{%- endmacro -%}
+
+{%- macro intro(Company_Tel,Company,REGISTERED_STATE_Tel,company_size_Tel,DATE_OF_REGISTRATION,Industry_Tel,COMPANY_SUB_CATEGORY_Tel,REGISTRAR_OF_COMPANIES_Tel,Sector_Tel,AUTHORIZED_CAP,PAIDUP_CAPITAL,date_of_incorp) -%}
+
+
+    {%- set ref2_line="<ref>{{Cite web|url="+'https://www.thecompanycheck.com/'+" | title="+"companycheck"+"|website=www.thecompanycheck.com|access-date=2022-04-22}}</ref> " -%}
+
+
+    {%- if date_of_incorp_Tel!='NaN' %}
+        {%- set into_line=[ "'''"+Company_Tel +"''' ( "+ Company+" )"+ " భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం "+date_of_incorp_Tel+" న స్థాపించబడిన "+company_size_Tel+" సంస్థ. ",
+        "'''"+Company_Tel +"''' ( "+ Company+" )"+ " "+date_of_incorp_Tel+" న భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన "+company_size_Tel+" సంస్థ. "
+        ] | random
+        -%}
+    {{into_line}}
+    {%- else %}
+        {%- set into_line=[ "'''"+Company_Tel +"''' ( "+ Company+" )"+ " భారతదేశంలో కంపెనీల చట్టం నిబంధనల ప్రకారం స్థాపించబడిన "+company_size_Tel+" సంస్థ. ",
+        ] | random
+        -%}
+    {{into_line}}
+    {%- endif %}
+    {%- if REGISTERED_STATE_Tel != 'NaN' and DATE_OF_REGISTRATION != 'NaN' %}
+        {%- set state_line=[ "ఇది భారతదేశంలోని " + REGISTERED_STATE_Tel+" లో " + DATE_OF_REGISTRATION +"న నమోదు చేయబడింది. ",
+            ] | random
+        -%}
+
+    {%- elif REGISTERED_STATE_Tel != 'NaN' and DATE_OF_REGISTRATION == 'NaN' %}
+        {%- set state_line=["ఇది భారతదేశంలోని " + REGISTERED_STATE_Tel+" లో నమోదు చేయబడింది. ",
+            ] | random
+        -%}
+
+
+    {%- elif REGISTERED_STATE_Tel == 'NaN' and DATE_OF_REGISTRATION != 'NaN' %}
+        {%- set state_line=[ "ఇది భారతదేశంలో " + DATE_OF_REGISTRATION +" న నమోదు చేయబడింది. ",
+            ] | random
+        -%}
+        {{state_line}}
+    {%- endif %}
+    {%- if REGISTRAR_OF_COMPANIES_Tel !='NaN' %}
+        {%- set headq_line=["దీని ప్రధాన కార్యాలయం "+ REGISTRAR_OF_COMPANIES_Tel[4:]+" లో ఉంది. ",""+REGISTRAR_OF_COMPANIES_Tel[4:]+" లో దీని ప్రధాన కార్యాలయం ఉంది. "
+        ] | random
+        -%}
+        {{headq_line}}
+    {%- endif %}
+    {%- if COMPANY_SUB_CATEGORY_Tel != 'NaN' and REGISTRAR_OF_COMPANIES_Tel != 'NaN' %}
+        {%- set csubcat=["ఇది "+COMPANY_SUB_CATEGORY_Tel+" గా వర్గీకరించబడింది. ","ఈ సంస్థ "+COMPANY_SUB_CATEGORY_Tel+" గా వర్గీకరించబడింది. "
+        ] | random
+        -%}
+        {{csubcat}}
+    {%- endif %}
+    {%- if REGISTRAR_OF_COMPANIES_Tel != 'NaN' %}
+        {%- set reg_line= ["దీని రిజిస్ట్రార్ ఆఫ్ కంపెనీస్, "+REGISTRAR_OF_COMPANIES_Tel+" లో నమోదు చేయబడింది"+ref2_line+". ",
+        ] | random
+        -%}
+        {{reg_line}}
+    {%- endif %}
+    
+    {%- if Sector_Tel != 'NaN' %}
+        {%- set ssector=["ఈ సంస్థ ప్రధాన కార్యకలాపాలు "+Sector_Tel+" రంగంలో కలవు. ","ఈ సంస్థకు ప్రధానంగా "+Sector_Tel+" రంగంలో కార్యకలాపాలు కలవు. "
+        ] | random
+        -%}
+        {{ssector}}
+    {%- endif %}
+    {%- if Industry_Tel != 'NaN' %}
+        {%- set indus_line=["ఈ సంస్థ "+Industry_Tel+" పరిశ్రమలో సేవలను అందిస్తుంది. ",Industry_Tel+" వ్యాపార పరిశ్రమలో ఈ సంస్థ సేవలను అందిస్తుంది. "
+        ] | random
+        -%}
+        {{indus_line}}
+    {%- endif %}
+
+    {%- if AUTHORIZED_CAP != 'NaN' and PAIDUP_CAPITAL!= 'NaN' %}
+        {%- set auth_line=["దీని అధీకృత వాటా మూలధనం(ఆర్థరైజ్డ్ కాపిటల్) రూ."+AUTHORIZED_CAP[:-2]+", దాని చెల్లించిన మూలధనం(పైడ్అప్ కాపిటల్) రూ."+PAIDUP_CAPITAL[:-2]+""+ref2_line+". ",
+        ] |random
+        -%}
+        {{auth_line}}
+    {%- endif %}
+
+{%- endmacro -%}
+
+{%- macro hist(Company_Tel,Company,COMPANY_CLASS_Tel,Former_Name_Tel,REGISTERED_STATE_Tel,BSE_code,NSE_code,DATE_OF_REGISTRATION,Description_3,date_of_incorp_Tel,ISIN_Status_Tel,CIN) -%}
+
+    {%- set ref2_line="<ref>{{Cite web|url="+'https://www.zaubacorp.com/'+" | title="+"zaubacorp"+"|website=www.zaubacorp.com|access-date=2022-04-22}}</ref> " -%}
+    {{ '==చరిత్ర=='+'\n' }}
+    {%- if REGISTERED_STATE_Tel != 'NaN' and DATE_OF_REGISTRATION != 'NaN' %}
+        {%- set state_line=["'''"+Company_Tel+"'''("+Company+") "+DATE_OF_REGISTRATION+ " న "+REGISTERED_STATE_Tel+" లో నమోదు చేయబడింది"+ref2_line+". ",
+        ] | random
+        -%}
+        {{state_line}}
+    {%- elif REGISTERED_STATE_Tel != 'NaN' and DATE_OF_REGISTRATION == 'NaN' %}
+        {%- if date_of_incorp_Tel!= 'NaN' %}
+            {%- set state_line=["'''"+Company_Tel+"'''("+Company+") "+date_of_incorp_Tel+ " న "+REGISTERED_STATE_Tel+" లో నమోదు చేయబడింది"+ref2_line+". ",
+            ] | random
+            -%}
+            {{state_line}}
+        {%- else %}
+            {%- set state_line=["'''"+Company_Tel+"'''("+Company+") "+REGISTERED_STATE_Tel+" లో నమోదు చేయబడింది"+ref2_line+". ",
+            ] | random
+            -%}
+            {{state_line}}
+        {%- endif %}
+    {%- elif REGISTERED_STATE_Tel == 'NaN' and DATE_OF_REGISTRATION != 'NaN' %}
+        {%- set state_line=["'''"+Company_Tel+"'''("+Company+") భారతదేశంలో " + DATE_OF_REGISTRATION +" న నమోదు చేయబడింది. ",
+            ] | random
+        -%}
+        {{state_line}}
+    {%- endif %}
+
+    {%- if COMPANY_CLASS_Tel!='NaN' %}
+        {%- set class_line= ["ఇది ఒక "+COMPANY_CLASS_Tel+" లిమిటెడ్ సంస్థ. ",
+        ] | random
+        -%}
+        {{class_line}}
+    {%- endif %}
+
+    {%- if Former_Name_Tel != 'NaN' %}
+    {%- set oldname_line= ["ఈ సంస్థ పూర్వ (పాత) పేరు "+Former_Name_Tel+". ",Former_Name_Tel+" అనేది ఈ సంస్థ పూర్వ (పాత) పేరు. ","దీని యొక్క పాత పేరు "+Former_Name_Tel+". "
+        ] | random
+    -%}
+        {{oldname_line}}
+    {%- endif %}
+    {%- if BSE_code != 'NaN' and NSE_code != 'NaN' %}
+        {%- set share_line = ["ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్, నేషనల్ స్టాక్ ఎక్స్ఛేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. ",
+        ] | random
+        -%}
+        {{share_line}}
+    {%- elif BSE_code != 'NaN' and NSE_code == 'NaN' %}
+        {%- set share_line = ["ఈ సంస్థ ఈక్విటీ షేర్లు బాంబే స్టాక్ ఎక్స్చేంజ్ ఆఫ్ ఇండియాలో జాబితా చేయబడ్డాయి. ",
+        ] | random
+        -%}
+        {{share_line}}
+    {%- endif %}
+    {%- if Description_3 != 'NaN' %}
+        {%- set dir_line = [Company_Tel+" సంస్థకి ప్రస్తుతం " + Description_3.split("డైరెక్టర్లు ")[1] + " డైరెక్టర్లుగా నియమించబడ్డారు. ",Company_Tel+" సంస్థ డైరెక్టర్లు " + Description_3.split("డైరెక్టర్లు ")[1] + ". "
+        ] | random
+        -%}
+        {{dir_line}}
+    {%- endif %}
+    {%- set ref_isin_line="<ref>{{Cite web|url="+'https://nsdl.co.in/'+" | title="+"nsdl"+"|website=nsdl.co.in|access-date=2022-04-22}}</ref> " -%}
+
+    {%- if  ISIN_Status_Tel != "NaN" and ISIN_Status_Tel =="యాక్టివ్" %}
+        {%- set isin_line= ["అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ యాక్టివ్‌గా ఉంది"+ref_isin_line+". ",
+        ] | random
+        -%}
+        {{isin_line}}
+    {%- elif  ISIN_Status_Tel != "NaN" and ISIN_Status_Tel =="తొలగించబడింది" %}
+        {%- set isin_line= ["అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ తొలగించబడింది"+ref_isin_line+". ",
+        ] | random
+        -%}
+        {{isin_line}}
+    {%- elif  ISIN_Status_Tel != "NaN" and ISIN_Status_Tel =="ACA కారణంగా బ్లాక్ చేయబడింది" %}
+        {%- set isin_line= ["అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ ACA కారణంగా బ్లాక్ చేయబడింది"+ref_isin_line+". ",
+        ] | random
+        -%}
+        {{isin_line}}
+    {%- elif  ISIN_Status_Tel != "NaN" and ISIN_Status_Tel =="సస్పెండ్ చేయబడింది" %}
+        {%- set isin_line= ["అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య (ISIN) స్థితి ప్రకారం ఈ సంస్థ సస్పెండ్ చేయబడింది"+ref_isin_line+". ",
+        ] | random
+        -%}
+        {{isin_line}}
+    {%- endif %}
+
+{%- endmacro -%} 
+
+{%- macro opt(company_size,Company_Tel,PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN_Tel,COMPANY_STATUS_Tel,Sector_Tel,Industry_Tel,ISIN) -%}
+    {{ '==కార్యకలపాలు =='+'\n' }}
+    
+    {%- set ref3_line="<ref>{{Cite web|url="+'https://www.kaggle.com/datasets/rowhitswami/all-indian-companies-registration-data-1900-2019 '+" | title="+"kaggle dataset"+"|website=www.kaggle.com|access-date=2022-04-22}}</ref> " -%}
+    {%- if company_size == "Giant" %}
+    {%- set ref4_line="<ref>{{Cite web|url="+'https://www.valueresearchonline.com/stocks/selector/capitalisation/1/giant/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval'+" | title="+"కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి"+"|website=www.valueresearchonline.com|access-date=2022-04-22}}</ref> " -%}
+    {%- elif company_size == "Large" %}
+    {%- set ref4_line="<ref>{{Cite web|url="+'https://www.valueresearchonline.com/stocks/selector/capitalisation/2/large-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval'+" | title="+"కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి"+"|website=www.valueresearchonline.com|access-date=2022-04-22}}</ref> " -%}
+    {%- elif company_size == "Medium" %}
+    {%- set ref4_line="<ref>{{Cite web|url="+'https://www.valueresearchonline.com/stocks/selector/capitalisation/3/mid-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval '+" | title="+"కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి"+"|website=www.valueresearchonline.com|access-date=2022-04-22}}</ref> " -%}
+    {%- elif company_size == "Small" %}
+    {%- set ref4_line="<ref>{{Cite web|url="+'https://www.valueresearchonline.com/stocks/selector/capitalisation/4/small-cap/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval'+" | title="+"కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి"+"|website=www.valueresearchonline.com|access-date=2022-04-22}}</ref> " -%}
+    {%- elif company_size == "Tiny" %}
+    {%- set ref4_line="<ref>{{Cite web|url="+'https://www.valueresearchonline.com/stocks/selector/capitalisation/5/tiny/?custom-cols=ret1d%2Cpl52w%2Cph52w%2Cmcap%2Centval'+" | title="+"కంపెనీల జాబితా ఈ వెబ్సైటు నుండి సేకరించబడినవి"+"|website=www.valueresearchonline.com|access-date=2022-04-22}}</ref> " -%}
+    {%- endif %}
+    {%- if Sector_Tel != 'NaN' and Industry_Tel != 'NaN' %}
+        {%- set ssector=[Company_Tel+" సంస్థ ప్రధాన కార్యకలాపాలు "+Sector_Tel+" రంగంలో కలవు. ఇది "+Industry_Tel+" వంటి పరిశ్రమలో సేవలను అందిస్తుంది"+ref4_line+". ",
+        ] | random
+        -%}
+        {{ssector}}
+    {%- elif Sector_Tel != 'NaN' and Industry_Tel == 'NaN' %}
+        {%- set ssector=[Company_Tel+" సంస్థ ప్రధాన కార్యకలాపాలు "+Sector_Tel+" రంగంలో కలవు"+ref4_line+". ",
+        ] | random
+        -%}
+        {{ssector}}
+    {%- elif Sector_Tel == 'NaN' and Industry_Tel != 'NaN' %}
+        {%- set ssector=[Company_Tel+" సంస్థ "+Industry_Tel+" పరిశ్రమలో సేవలను అందిస్తుంది"+ ref4_line+". ",
+        ] | random
+        -%}
+        {{ssector}}   
+    {%- endif %}
+    {%- if PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN_Tel != 'NaN' -%}
+        {%- set act_line= [ "సంస్థ నమోదు సంఖ్య(CIN) ప్రకారము దీని ప్రధాన వ్యాపారము "+PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN_Tel+ref3_line+". ",
+        ] | random
+        -%}
+        {{act_line}}
+    {%- endif -%}
+    {%- if COMPANY_STATUS_Tel!='NaN' and COMPANY_STATUS_Tel == 'చురుకుగా' or COMPANY_STATUS_Tel =='క్రియాశీల సంస్థ' -%}
+        {%- set status_line =[ "ఈ సంస్థ ప్రస్తుతం చురుకుగా కార్యకలాపాలు సాగిస్తుంది. ",
+        ] | random
+         -%}
+        {{status_line}}
+    {%- elif COMPANY_STATUS_Tel!='NaN' and COMPANY_STATUS_Tel == 'రద్దు చేయబడింది' or COMPANY_STATUS_Tel == 'కొట్టివేయు' -%}
+        {%- set status_line =[  "ఈ సంస్థ ప్రస్తుతం రద్దు చేయబడింది. " ,
+        ] | random
+            -%}
+        {{status_line}}
+    {%- elif COMPANY_STATUS_Tel!='NaN' and COMPANY_STATUS_Tel == 'సమ్మేళనం' -%}
+        {%- set status_line =[ "ఈ సంస్థ ప్రస్తుతం మరొక సంస్థతో సమ్మిళితమైంది. " ,
+        ] | random
+        -%}
+        {{status_line}}
+    {%- elif COMPANY_STATUS_Tel!='NaN' and COMPANY_STATUS_Tel == 'ఈఫైలింగ్ కోసం అందుబాటులో లేదు' -%}
+        {%- set status_line =[ "ఈ సంస్థ ప్రస్తుతం ఈఫైలింగ్ కోసం అందుబాటులో లేదు. ",
+        ] | random
+         -%}  
+         {{status_line}}     
+    {%- endif -%}
+        {%- set rt_line= [ "ఈ సంస్థకి ఆర్టీఏ ఎలాంటి సేవలను నిలిపివేయలేదు. ","ఆర్టీఏ ఈ సంస్థకి ఎలాంటి సేవలను నిలిపివేయలేదు. "
+        ] | random
+        -%}
+        {{rt_line}}
+   {%- if COMPANY_CATEGORY_Tel != 'NaN' and COMPANY_CATEGORY_Tel=='కంపెనీ షేర్ల ద్వారా పరిమితం చేయబడింది' -%}
+        {%- set cc_line= [ "ఇది షేర్ల ద్వారా పరిమితం చేయబడిన సంస్థ. ","ఈ సంస్థ షేర్ల ద్వారా పరిమితం చేయబడింది. "
+        ] | random
+        -%}
+        {{cc_line}}
+    {%- elif COMPANY_CATEGORY_Tel != 'NaN' and COMPANY_CATEGORY_Tel=='కంపెనీ గ్యారెంటీ ద్వారా లిమిటెడ్' -%}
+        {%- set cc_line= [ "ఇది గ్యారెంటీ ద్వారా పరిమితం చేయబడిన సంస్థ. ","ఈ సంస్థ గ్యారెంటీ ద్వారా పరిమితం చేయబడింది. "
+        ] | random
+        -%}
+        {{cc_line}}
+    {%- endif -%} 
+{%- endmacro -%}
+
+{%- macro othe(CIN,Name_of_Registrar_Transfer_Agent_Tel,RTA_Business_Partner_ID,BSE_code,NSE_code,ISIN,EMAIL_ADDR,Description_4) -%}
+    {{ '==ఇతర వివరాలు=='+'\n' }}
+
+    {%- if CIN != 'NaN' -%}
+        {%- set cin_line = [
+            "భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA) నుండి వచ్చిన రికార్డుల ప్రకారం " + Company_Tel + " సంస్థ కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) " + CIN + ", దాని నమోదు సంఖ్య " + CIN[16:] + " గా నమోదు చేయబడింది. ",
+            "భారత కార్పొరేట్ వ్యవహారాల మంత్రిత్వ శాఖ (MCA), " + Company_Tel + "  సంస్థకి కార్పొరేట్ గుర్తింపు సంఖ్య (CIN) " + CIN + ", నమోదు సంఖ్య " + CIN[16:]+ " ని కేటాయించింది. "
+        ] | random -%}
+        {{"*"+cin_line+"\n"}}
+    {%- endif -%}  
+    {%- if Name_of_Registrar_Transfer_Agent_Tel != 'NaN' and RTA_Business_Partner_ID != 'NaN' %}
+        {%- set rta_line= ["ఈ సంస్థ రిజిస్ట్రార్ & ట్రాన్స్ ఫర్ ఏజెంట్(RTA) పేరు "+Name_of_Registrar_Transfer_Agent_Tel+", గుర్తింపు సంఖ్య "+RTA_Business_Partner_ID+". ",
+        ] | random
+        -%}
+        {{"*"+rta_line+"\n"}}
+    {%- endif %}
+
+    {%- if BSE_code != 'NaN' and NSE_code != 'NaN' %}
+        {%- set rbsense_line = ["ఈ సంస్థ బాంబే స్టాక్ ఎక్స్ఛేంజ్(BSE) కోడ్ "+BSE_code+", నేషనల్ స్టాక్ ఎక్స్ఛేంజ్(NSE) కోడ్ "+NSE_code+". ",
+        ] | random
+        -%}
+        {{"*"+rbsense_line+"\n"}}
+    {%- endif %}
+
+    {%- if ISIN != 'NaN' %}
+        {%- set isin_line = ["ఈ సంస్థ అంతర్జాతీయ సెక్యూరిటీల గుర్తింపు సంఖ్య(ISIN) "+ISIN+". ",
+        ] | random
+        -%}
+        {{"*"+isin_line}}
+    {%- endif %}
+
+{%- endmacro -%}
+{%- macro references(url,Company_Tel) -%}
+
+{{ '==మూలాలు=='+'\n'}}<references />
+
+{%- endmacro -%}
+
+{%- macro category(REGISTERED_STATE_Tel) -%}
+
+	[[వర్గం: తెవికీ భారతీయ సంస్థలు ]]
+    [[వర్గం: Stage 1: bse nse సంస్థలు]]
+    {%- if REGISTERED_STATE_Tel!= 'NaN' %}
+    [[వర్గం: {{REGISTERED_STATE_Tel}} లోని సంస్థలు]]
+    {%- endif %}
+    
+{%- endmacro -%}
+
+{{- infobox(Company_Tel,REGISTERED_STATE_Tel,COMPANY_CLASS_Tel,Industry_Tel,BSE_code,NSE_code,ISIN,CIN,date_of_incorp_Tel,REGISTRAR_OF_COMPANIES_Tel,Description_3) }}
+{{'\n'}}
+{{- intro(Company_Tel,Company,REGISTERED_STATE_Tel,company_size_Tel,DATE_OF_REGISTRATION,Industry_Tel,COMPANY_SUB_CATEGORY_Tel,REGISTRAR_OF_COMPANIES_Tel,Sector_Tel,AUTHORIZED_CAP,PAIDUP_CAPITAL,date_of_incorp_Tel) }}
+{{'\n'}}
+{{- hist(Company_Tel,Company,COMPANY_CLASS_Tel,Former_Name_Tel,REGISTERED_STATE_Tel,BSE_code,NSE_code,DATE_OF_REGISTRATION,Description_3,date_of_incorp_Tel,ISIN_Status_Tel,CIN) }}
+{{'\n'}}
+{{- opt(company_size,Company_Tel,PRINCIPAL_BUSINESS_ACTIVITY_AS_PER_CIN_Tel,COMPANY_STATUS_Tel,Sector_Tel,Industry_Tel,ISIN) }}
+{{'\n'}}
+{{- othe(CIN,Name_of_Registrar_Transfer_Agent_Tel,RTA_Business_Partner_ID,BSE_code,NSE_code,ISIN,EMAIL_ADDR,Description_4) }}
+{{'\n'}} 
+{{- references() }}
+{{'\n'}}
+{{- category(REGISTERED_STATE_Tel) }}

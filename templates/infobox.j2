@@ -1,0 +1,59 @@
+{%- macro infobox(Company_Tel,image,COMPANY_CLASS_Tel,BSE_code,NSE_code,ISIN,Industry_Tel,date_of_incorp,Head_Quarter_,REGISTERED_STATE_Tel,Description_3,website,Former_Name_Tel,AUTHORIZED_CAP,PAIDUP_CAPITAL) -%}
+
+
+{{'{{Infobox company'}}
+| name = {{Company_Tel}}
+{%- if image!= 'NaN' %}
+| logo = {{image}}
+{%- endif %}
+{%- if COMPANY_CLASS_Tel!= 'NaN' %}
+| type = {{COMPANY_CLASS_Tel}}
+{%- endif %}
+{% if BSE_code!='NaN' and NSE_code!='NaN' %}
+| traded_as = {{"{{BSE|"+BSE_code+"}}, {{NSE|"+NSE_code+"}}"}}
+{% elif BSE_code!='NaN' %}
+| traded_as = {{"{{BSE|"+BSE_code+"}}"}}
+{% elif NSE_code!='NaN' %}
+| traded_as = {{"{{NSE|"+NSE_code+"}}"}}
+{%- endif %}
+{% if ISIN != 'NaN' %}
+| ISIN = {{ISIN}}
+{%- endif %}
+{%- if Industry_Tel!= 'NaN' %}
+| industry = {{Industry_Tel}}
+{%- endif %}
+{%- if date_of_incorp!= 'NaN' %}
+| founded = {{date_of_incorp}}
+{%- endif %}
+{%- if Former_Name_Tel != 'NaN' %}
+| former_name = {{Former_Name_Tel}}
+{%- endif %}
+{%- if REGISTERED_STATE_Tel!='NaN' and Head_Quarter_!= 'NaN' and REGISTERED_STATE_Tel!=Head_Quarter_ %}
+| hq_location = {{Head_Quarter_}}
+| hq_location_city = {{REGISTERED_STATE_Tel}}
+{%- elif REGISTERED_STATE_Tel!='NaN' and Head_Quarter_!= 'NaN' and REGISTERED_STATE_Tel==Head_Quarter_ %}
+| hq_location = {{REGISTERED_STATE_Tel}}
+{%- elif REGISTERED_STATE_Tel!='NaN' %}
+| hq_location_city = {{REGISTERED_STATE_Tel}}
+{%- elif Head_Quarter_!='NaN' %}
+| hq_location = {{Head_Quarter_}}
+{%- endif %}
+| hq_location_country = భారతదేశం
+{%- if Description_3!= 'NaN' %}
+| key_people = {{Description_3.split("డైరెక్టర్లు ")[1]}}
+{%- endif %}
+{%- if website != 'NaN' %}
+| website ={{website}}
+{%- endif %}
+
+{%- if AUTHORIZED_CAP!= 'NaN' %}
+| authorized_capital ={{AUTHORIZED_CAP[:-2]}}
+{%- endif %}
+{%- if PAIDUP_CAPITAL!='NaN' %}
+| paidup_capital ={{PAIDUP_CAPITAL[:-2]}}
+{%- endif %}
+{{'}}\n'}}
+{%- endmacro -%}
+
+
+{{- infobox(Company_Tel,image,COMPANY_CLASS_Tel,BSE_code,NSE_code,ISIN,Industry_Tel,date_of_incorp,Head_Quarter_,REGISTERED_STATE_Tel,Description_3,website,Former_Name_Tel,AUTHORIZED_CAP,PAIDUP_CAPITAL) }}
