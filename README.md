@@ -1,6 +1,6 @@
 # Indian Companies-NSE BSE
 
-NSE BSE companies is one of the domains, which is a part of the IndicWiki Project.
+NSE BSE companies is a part of Indian companies which is one of the domains, which is a part of the IndicWiki Project.
 
 ## Description
 
