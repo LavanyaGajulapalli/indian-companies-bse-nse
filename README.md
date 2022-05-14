@@ -13,7 +13,7 @@ Create virtual environment in the project folder using the following commands.
 ```bash
 pip install virtualenv
 pip install python3.9 
-virtualenv -p python3.9 birdEnv
+virtualenv -p python3.9 env
 ```
 
 After the successful creation of virtual environment (venv), clone the repository or download the zip folder of the project and extract it. 
