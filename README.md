@@ -20,7 +20,7 @@ After the successful creation of virtual environment (venv), clone the repositor
 
 requirements.txt comes along with the Project Directory.
 
-## Guide to generate XML dump, articles for different Birds
+## Guide to generate XML dump, articles for different Companies
 
 - Clone the repository into the local system.
 - Open the notebook file XMLgen.ipynb, Configure `From_n` and `To_n` variables then Execute the notebook by clicking on "Run all", where `From_n` and `To_n` correspond to the row numbers of the first and last desired articles (only serial order is possible). For example `From_n = 30` and `To_n = 50` would generate xml dump for companies in rows 30-50 (inclusive). By default, dump is generated for all companies (case where no mdifications are done).
